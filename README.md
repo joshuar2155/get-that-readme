@@ -11,8 +11,7 @@
 
 Implicate this project by using node in the terminal.
 
-    ![This is a screenshot of the terminal.](./images/terminal.png)
-
+![Screenshot](./images/terminal.png)
 
 ## Credits
 
