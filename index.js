@@ -51,12 +51,7 @@ const questions = [
     const inquirer = require("inquirer");
     const fs = require("fs");
     const generate = require("./utils/generateMarkdown.js");
-     const path = require("path");
-
-     function writeToFile(fileName, data) {
-        fs.writeFileSync(path.join (process.cwd(), "Readme.md"), generate());
-      }
-
+     
     inquirer
         .prompt(questions)
         .then(function(answers) {
@@ -65,7 +60,7 @@ const questions = [
           err ? console.log(err) : console.log('Successfully created readme!')
           );
 
-           return writeToFile(answers);
+           
         });
  }
 
