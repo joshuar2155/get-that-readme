@@ -9,11 +9,10 @@
 
 ## Usage
 
-To use this project you must launch node from the terminal and follow the prompts to automatically fill out your readme.
+Implicate this project by using node in the terminal.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    ![This is a screenshot of the terminal.](./images/terminal.png)
+
 
 ## Credits
 
